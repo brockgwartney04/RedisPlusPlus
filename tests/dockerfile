@@ -1,0 +1,12 @@
+FROM python:3.13
+WORKDIR /tests
+
+#COPY requirments.txt ./
+#RUN pip install --no-cache-dir -r requirments.txt
+
+COPY . .
+
+RUN useradd app
+USER app
+
+ENTRYPOINT ["python", "test.py"]
