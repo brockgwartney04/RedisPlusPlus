@@ -11,5 +11,5 @@ add_executable(redispp)
 
 target_sources(redispp
     PRIVATE
-        main.cpp
+        tcpserver.cpp
 )
