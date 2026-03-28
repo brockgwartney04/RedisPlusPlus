@@ -1,0 +1,1 @@
+g++ -std=c++20 -Iapp app/redis_server.cpp -o redis
