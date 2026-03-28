@@ -1,6 +1,6 @@
 The following repo is a minimal implementation of a Redis Clone
 
-Currently it support 3 out of the many Redis Commands and implements the following:
+Currently it supports 3 out of the many Redis Commands and implements the following:
     a TCP Server
     A In Memory Key Value Store
     Minimal RESP2 PARSER
