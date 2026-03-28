@@ -1,4 +1,4 @@
-The following repo is a minimal implenation of a Redis Clone
+The following repo is a minimal implementation of a Redis Clone
 
 Currently it support 3 out of the many Redis Commands and implements the following:
     a TCP Server
@@ -13,4 +13,5 @@ This is in no way a production level system, and was created as a learning Proje
 
 There were many mistakes made in the Architecture of this Project - and if redone - I would change how commands are handled.
 
-This is repo is comaptable with the redis-cli on supported commands.
+This repo is compatible with the redis-cli on supported commands.
+
